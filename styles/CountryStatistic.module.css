@@ -1,0 +1,88 @@
+.errorWrapper{
+    margin: 10px 0;
+}
+.error{
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+.errorBackButton{
+    padding: 8px 14px;
+    display: inline-block;
+    border: 1px solid #E8E8E8;
+    background-color: #E8E8E8;
+    color: #333333;
+    cursor: pointer;
+
+}
+.errorBackButton:hover{
+    background-color: white;
+}
+.loading{
+    margin: 10px 0;
+}
+.wrapper{
+    padding-top: 14px;
+}
+.country{
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 23px;
+}
+.statisticsContainer{
+    display: flex;
+    margin-top: 23px;
+}
+.list{
+    margin-right: 53px;
+}
+.list:last-child{
+    margin: 0;
+}
+.criteria{
+    margin-bottom: 14px;
+}
+.item, .itemMain,.itemGray,.itemRed{
+    font-size: 14px;
+    line-height: 16px;
+}
+.item:first-child, .itemMain:first-child,.itemGray:first-child{
+    margin-right: 12px;
+}
+.item{
+    font-weight: 300;
+}
+.item:last-child{
+    font-weight: 400;
+}
+.itemMain{
+    font-size: 16px;
+    line-height: 19px;
+}
+.itemGray{
+    font-weight: 300;
+    color: #333333;
+    opacity: 0.5;
+}
+.itemRed{
+    color: #EB5757;
+}
+.backButton{
+    padding: 8px 14px;
+    display: inline-block;
+    border: 1px solid #E8E8E8;
+    background-color: #E8E8E8;
+    color: #333333;
+    cursor: pointer;
+}
+
+@media(max-width: 740px){
+    .statisticsContainer{
+        flex-direction: column;
+    }
+    .list{
+        margin: 0 0 20px 0;
+    }
+
+
+}
