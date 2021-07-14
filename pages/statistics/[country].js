@@ -1,6 +1,5 @@
 import Router, {useRouter} from "next/router";
 import * as axios from "axios";
-import Head from "next/head";
 import Link from 'next/link'
 import s from "../../styles/CountryStatistic.module.css";
 import {useEffect, useState} from "react";

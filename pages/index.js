@@ -122,7 +122,7 @@ const Home = ({response: serverResponse}) => {
                     }
                 </section>
                 <div className={s.navigation}>
-                    <div onClick={previousPage} className={s.arrowNavL}><Image src={leftArrow}/></div>
+                    <div onClick={previousPage} className={s.arrowNavL}><Image src={leftArrow} alt={'arrow'}/></div>
                     {alphabet.map(l => <span className={activePage === l ? s.activePageLetter : s.pageLetter}
                                              onClick={() => {
                                                  if (searchMode) {
@@ -132,12 +132,12 @@ const Home = ({response: serverResponse}) => {
 
                                              }}
                                              key={l}>{l}</span>)}
-                    <div onClick={nextPage} className={s.arrowNavR}><Image src={rightArrow}/></div>
+                    <div onClick={nextPage} className={s.arrowNavR}><Image alt={'arrow'} src={rightArrow}/></div>
                 </div>
                 <div className={s.mobileNav}>
-                    <span onClick={previousPage}><Image src={leftArrow}/></span>
+                    <span onClick={previousPage}><Image alt={'arrow'} src={leftArrow}/></span>
                     <span className={s.activePageLetter}>{activePage}</span>
-                    <span onClick={nextPage}><Image src={rightArrow}/></span>
+                    <span onClick={nextPage}><Image alt={'arrow'} src={rightArrow}/></span>
 
                 </div>
 
